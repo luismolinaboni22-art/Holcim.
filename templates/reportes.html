@@ -126,6 +126,7 @@
             <td>{{ v.motivo }}</td>
             <td>{{ v.placa }}</td>
             <td>{{ v.hora_ingreso }}</td>
+            <td>{{ v.hora_Salida }}</td>
         </tr>
         {% endfor %}
     </table>
@@ -141,6 +142,7 @@
             <th>Motivo</th>
             <th>Responsable</th>
             <th>Hora de Ingreso</th>
+            <th>Hora de Salida</th>
         </tr>
 
         {% for c in contratistas %}
@@ -152,6 +154,7 @@
             <td>{{ c.motivo }}</td>
             <td>{{ c.responsable }}</td>
             <td>{{ c.hora_ingreso }}</td>
+                   <td>{{ c.hora_Salida }}</td>
         </tr>
         {% endfor %}
     </table>
@@ -167,6 +170,7 @@
             <th>Motivo</th>
             <th>Placa</th>
             <th>Hora de Ingreso</th>
+            <th>Hora de Salida</th>
         </tr>
 
         {% for p in proveedores %}
@@ -178,6 +182,7 @@
             <td>{{ p.motivo }}</td>
             <td>{{ p.placa }}</td>
             <td>{{ p.hora_ingreso }}</td>
+                     <td>{{ p.hora_Salida }}</td>
         </tr>
         {% endfor %}
     </table>
